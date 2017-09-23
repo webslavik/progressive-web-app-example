@@ -1,0 +1,39 @@
+{
+  "name": "Subway - the most awesome app", // long name of app (e.g. on Splashscreen)
+  "short_name": "Subway", // short name of app (e.g. below icon)
+  "start_url": "/index.html", // which page to lad on startup
+  "scope": ".", // which pages are included in "PWA Experience"
+  "display": "standalone", // standalone - 
+                           // fullscreen - any controls
+                           // minimal-ui - like standalone
+                           // browser - like browser page
+  "bacground_color": "#fff", // background whilst loading and on Splashscreen
+  "theme_color": "#2ecc71", // theme color (e.g. on top bar in task switcher)
+  "description": "Some awesome descriptions", // description
+  "dir": "ltr", // read direction of your app
+  "lang": "en-US", // main language of app
+  "orientation": "portrait-primary", // set and enforce default orientation
+                                     // any - 
+                                     // landscape - 
+                                     // portrait - ?
+                                     // portrait-primary - doesn't switch
+  "icons": [
+    {
+      "src": "/src/img/app-icon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/src/img/app-icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/some_app.app1",
+      "id": "com.example.app1"
+    }
+  ]
+}
